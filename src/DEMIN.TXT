@@ -1,0 +1,27 @@
+msg=f+gb
+.msg_f:
+Sauvegarder les scores ?
+Rejouer ?
+Bravo, vous avez gagn‚...
+Partie perdue...
+ESC-Fin
+X-Cocher
+?-Joker
+M-Mine
+Arr‚ter cette partie ?
+Joker
+Mine
+F2-Recommencer
+.msg_gb:
+Save high-score ?
+Play again ?
+Very good, you win...
+Game lost...
+ESC-Exit
+X-Check
+?-Joker
+M-Mine
+Stop this game ?
+Joker
+Mine
+F2-Restart
