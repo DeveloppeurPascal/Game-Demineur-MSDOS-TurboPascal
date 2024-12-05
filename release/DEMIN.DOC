@@ -1,0 +1,119 @@
+                                Jeu du D‚mineur.
+
+
+          Programm‚ sur PC (sous DOS) par Patrick Pr‚martin pour Olf Software,
+ce jeu est inspir‚ d'une version AS/400 r‚alis‚e par Rodolphe Davion (compagnon
+d'un premier inter-contrat)... Cette version est la propri‚t‚ de Olf Software.
+Il existe aussi une version WINDOWS dont nous nous sommes tous deux inspir‚s...
+
+
+          Ce jeu est distribu‚ en Freeware, vous pouvez le copier et le donner
+librement autour de vous, mais en aucun cas vous ne devez le vendre... ou
+l'acheter … un particulier !
+
+*******************************************************************************
+
+     Jeu inspir‚ du Master Mind, le d‚mineur peut se jouer seul (ou en ‚quipe).
+Il fait appel … votre esprit... d‚duction et instinct sont trŠs utiles. Avec un
+niveau de difficult‚ modifiable avant chaque partie vous aurez de quoi vous
+occuper pendant de longues heures.
+
+
+     Le but du jeu est simple, trouver les mines plac‚es sur un terrain de
+10*10 cases en ‚vitant d'exploser sur l'une d'elles.
+
+*******************************************************************************
+
+     Le programme se lance en tapant DEMIN sous DOS, mais il a plusieurs
+options:
+
+          DEMIN x y
+
+               o— x est … remplacer par un nombre entre 25 et 80.
+               Cette option permet de choisir le nombre de mines … trouver.
+
+               o— y est … remplacer par un nombre entre 0 et 25.
+               Cette option permet de choisir le nombre de jokers.
+
+          Par d‚faut, x = 25 et y = 25.
+
+
+     Le score est calcul‚ comme suit:
+
+            nombre de mines trouv‚es
+          + nombre de mines au d‚part
+          + 200 (bonus en cas de victoire)
+          + 100 (bonus de fin de partie, victoire ou d‚faite)
+          - nombre de jokers utilis‚s
+          - nombre de jokers utilisables
+
+*******************************************************************************
+
+     Le programme est facile d'accŠs, vous pouvez utiliser le clavier, ou la
+souris en fonction de vos pr‚f‚rences. Les meilleurs scores sont sauvegard‚s
+sur disque.
+
+
+     Pendant le jeu, vous voyez une grille de 10 * 10 cases. En fonction de vos
+choix, ces cases seront soit vides (_), soit remplies par des M (pour mines) ou
+des chiffres (de 0 … 8). Une partie s'arrŠte dans les cas suivants:
+          - vous avez rempli la grille, (c'est gagn‚)
+          - vous n'avez plus de mines (M) … placer, (gagn‚ ou perdu ?)
+          - vous avez saut‚ sur une mine. (c'est perdu)
+
+
+     Lorsqu'une case contient un chiffre, il vous indique le nombre de mines
+entourant la case. Pour connaŒtre le nombre de mines entourant une case, il
+faut la cocher en y pla‡ant un X. Voyez les exemples suivants:
+
+          - aucune mine entourant une case:
+               _ _ _
+
+               _ 0 _ vous pouvez donc jouer sur les cases autour du 0.
+
+               _ _ _
+
+          - 1 mine sur les cases adjacentes:
+               _ _ _
+
+               _ 1 _ faites attention, il y a huit mines possibles
+
+               _ _ _
+          La configuration suivante
+
+               _ _ _
+
+               _ 1 _ est une des huit possibles. (vous pouvez ensuite cocher
+                     les 7 autres cases)
+               _ _ M
+
+
+     Lorsque vous pensez savoir o— se trouve une mine, n'oubliez pas de
+l'indiquer en mettant un M dans la case correspondante.
+
+
+     Vous avez aussi la possibilit‚ d'utiliser des jokers (caract‚ris‚s par le
+symbole ?) en nombre limit‚. En les mettant sur une case, vous apprendrez si
+elle contient un chiffre ou une mine (sans aucun risque de perdre).
+
+
+     Jeu au clavier:
+          Vous pouvez d‚placer le curseur clignotant avec les flŠches.
+          Pour utiliser un Joker, appuyez sur la touche ? dans la case voulue.
+          Pour cocher une case, appuyez sur X dans la case.
+          Pour poser une mine, appuyez sur M dans la case.
+
+
+     Jeu … la souris:
+          Positionnez vous sur une case et appuyez sur le bouton gauche afin de
+          cocher la case (y mettre un X). Le bouton droit permet de mettre une
+          mine dans la case voulue. L'utilisation des jokers se fait avec les
+          deux boutons (ou le bouton central lorsqu'il est pr‚sent et reconnu).
+
+*******************************************************************************
+
+     Ce logiciel fonctionne sur tout IBM PC (ou compatible) muni d'un ‚cran. Si
+vous utilisez une souris, il faut qu'elle soit 100% compatible avec les drivers
+Microsoft.
+
+     Ne fonctionne pas sur tous les ‚crans LCD ou Hercule...
